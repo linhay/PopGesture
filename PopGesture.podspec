@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'PopGesture'
-s.version          = '0.1.0'
+s.version          = '0.1.1'
 s.summary          = 'swift 全屏返回手势框架.'
 
 s.homepage         = 'https://github.com/bigL055/PopGesture'

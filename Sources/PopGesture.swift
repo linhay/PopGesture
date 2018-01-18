@@ -40,8 +40,12 @@ struct RunTime {
 
 
 public class PopGesture {
+
+ static var once = false
   
   public class func begin() {
+    if once { return }
+    once = true
     RunTime.exchangeMethod(selector: #selector(UIViewController.viewWillAppear(_:)),
                            replace: #selector(UIViewController.popGes_viewWillAppear(_:)),
                            class: UIViewController.self)

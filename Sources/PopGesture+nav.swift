@@ -55,6 +55,7 @@ extension UINavigationController {
 
   @objc open func popGes_pushViewController(_ viewController: UIViewController, animated: Bool) {
     guard let gestureRecognizers = interactivePopGestureRecognizer?.view?.gestureRecognizers else {
+      saveVCNavState(vc: viewController)
       popGes_pushViewController(viewController,animated: animated)
       return
     }
