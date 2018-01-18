@@ -2,14 +2,13 @@
   "name": "PopGesture",
   "version": "0.1.0",
   "summary": "swift 全屏返回手势框架.",
-  "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/bigL055/PopGesture",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "bigL055": "158179948@qq.com"
+    "linhey": "linhan.linhey@outlook.com"
   },
   "source": {
     "git": "https://github.com/bigL055/PopGesture.git",
@@ -19,5 +18,6 @@
     "ios": "8.0"
   },
   "source_files": "PopGesture/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h"
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit"
 }
