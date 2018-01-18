@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'PopGesture_Example' do
+  pod 'PopGesture', :path => '../'
+end

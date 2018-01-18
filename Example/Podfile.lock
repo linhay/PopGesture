@@ -1,0 +1,16 @@
+PODS:
+  - PopGesture (0.1.0)
+
+DEPENDENCIES:
+  - PopGesture (from `../`)
+
+EXTERNAL SOURCES:
+  PopGesture:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PopGesture: ec66ee3caa52fd695885d54741219c228b64fc2e
+
+PODFILE CHECKSUM: e1ad0388e43b2d5257fd8bc09c461b3f157b6084
+
+COCOAPODS: 1.4.0.rc.1
