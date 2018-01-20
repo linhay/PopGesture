@@ -12,7 +12,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		CD1EECFD200F653D00F8E024 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EECFC200F653D00F8E024 /* HomeVC.swift */; };
-		CD1EECFF200F655A00F8E024 /* SencordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EECFE200F655A00F8E024 /* SencordVC.swift */; };
+		CD7F53EA201358E500C79795 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7F53E9201358E500C79795 /* main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		C1FCBBDD74576FAEC3ABE22C /* Pods-PopGesture_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopGesture_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopGesture_Tests/Pods-PopGesture_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CD1EECFC200F653D00F8E024 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		CD1EECFE200F655A00F8E024 /* SencordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SencordVC.swift; sourceTree = "<group>"; };
+		CD7F53E9201358E500C79795 /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		D2006ED883902AD27A217EA8 /* Pods-PopGesture_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopGesture_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopGesture_Tests/Pods-PopGesture_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE200F35E4C2C7E182004795 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EF992A051F128B1F52D45E6F /* Pods-PopGesture_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopGesture_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopGesture_Example/Pods-PopGesture_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 				CD1EECFC200F653D00F8E024 /* HomeVC.swift */,
-				CD1EECFE200F655A00F8E024 /* SencordVC.swift */,
+				CD7F53E9201358E500C79795 /* main.storyboard */,
 			);
 			name = "Example for PopGesture";
 			path = PopGesture;
@@ -201,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				CD7F53EA201358E500C79795 /* main.storyboard in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +268,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1EECFD200F653D00F8E024 /* HomeVC.swift in Sources */,
-				CD1EECFF200F655A00F8E024 /* SencordVC.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

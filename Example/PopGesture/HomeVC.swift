@@ -7,18 +7,15 @@
 //
 
 import UIKit
+import PopGesture
 
-class HomeVC: UIViewController {
+class MainVC: UITableViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    title = "Home"
-    view.backgroundColor = .white
+    PopGesture.begin()
   }
 
 
-  override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-    navigationController?.pushViewController(SencordVC(), animated: true)
-  }
 
 }
