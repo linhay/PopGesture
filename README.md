@@ -5,11 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/PopGesture.svg?style=flat)](http://cocoapods.org/pods/PopGesture)
 [![Platform](https://img.shields.io/cocoapods/p/PopGesture.svg?style=flat)](http://cocoapods.org/pods/PopGesture)
 
-## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
