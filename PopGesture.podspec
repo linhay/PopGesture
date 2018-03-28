@@ -1,13 +1,13 @@
 
 Pod::Spec.new do |s|
 s.name             = 'PopGesture'
-s.version          = '0.1.1'
+s.version          = '0.2.0'
 s.summary          = 'swift 全屏返回手势框架.'
 
-s.homepage         = 'https://github.com/bigL055/PopGesture'
+s.homepage         = 'https://github.com/linhey/PopGesture'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'linhey' => 'linhan.linhey@outlook.com' }
-s.source           = { :git => 'https://github.com/bigL055/PopGesture.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/linhey/PopGesture.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '8.0'
 s.source_files = ["Sources/*/**","Sources/*/*/**","Sources/**"]
